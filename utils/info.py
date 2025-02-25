@@ -18,13 +18,13 @@
 
 import os
 
-API_ID       = int(os.environ.get("API_ID", ""))
-API_HASH     = os.environ.get("API_HASH", "")
-BOT_TOKEN    = os.environ.get("BOT_TOKEN", "")
-SESSION      = os.environ.get("SESSION", "")
-TIME         = int(os.environ.get("TIME", 10))
-CHATS        = [int(cht) for cht in os.environ.get("CHATS", "").split()]
+API_ID       = int(os.environ.get("API_ID", "26083023"))
+API_HASH     = os.environ.get("API_HASH", "4dd1e00d9d977f74435a83927273feba")
+BOT_TOKEN    = os.environ.get("BOT_TOKEN", "7022937720:AAGmoo7EYLqnOc7oDQlvF-xMCO6Mchq2NNg")
+SESSION      = os.environ.get("SESSION", "BQFB9jMARMpSHGH6U3u-bWlx2K3CvNHs4rc_j0O2Mz5WrXAOH_ilBAqY8rlPTDMH-k9dHx4ipKcKRmhSVBpM2z5ZVp7cim2KiYkeC02FFg_mVgvLpSYSPmRlNNujS3lOZ3KsHHoA6PVpyfeKXIpY9PXNrXQzBEiLILMZeqTF2eSJmTCK6dwuvhVF06TyH88lRi7jKvnWwSXS70Fx42vEhaaDy2u7uHuD59G6IJsz2ZPfq9K8vURVbuhhDi84PJIUXkY5M_UGEVYTNJYlE36M1yXNN_GCICF-86459VKUkFMiTJIF7W5WGXIb99EBFRxscZSHx2smjDp2mmqgvtRU3N_iFWTuyAAAAAHEqf9yAA")
+TIME         = int(os.environ.get("TIME", 10800))
+CHATS        = [int(cht) for cht in os.environ.get("CHATS", "-1002027376994").split()]
 WHITE_LIST   = [int(wht) for wht in os.environ.get("WHITE_LIST", "").split()]
 BLACK_LIST   = [int(blk) for blk in os.environ.get("BLACK_LIST", "").split()]
-DATABASE_URI = os.environ.get("DATABASE_URI", "")
+DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://souravbosu0207:rHaqpU42HDK93WwW@cluster0.za4h6oa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 PORT         = os.environ.get("PORT", "8080")
